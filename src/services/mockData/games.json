@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "hostId": 1,
+    "players": [1, 2, 3],
+    "currentRound": 1,
+    "currentDrawer": 1,
+    "currentWord": "sunset",
+    "timeRemaining": 45,
+    "gameState": "playing",
+    "maxPlayers": 6,
+    "guesses": [
+      {
+        "Id": 1,
+        "playerId": 2,
+        "text": "sun",
+        "timestamp": 1701234567890,
+        "isCorrect": false
+      },
+      {
+        "Id": 2,
+        "playerId": 3,
+        "text": "sunset",
+        "timestamp": 1701234589123,
+        "isCorrect": true
+      }
+    ],
+    "scores": {
+      "1": 15,
+      "2": 8,
+      "3": 12
+    }
+  }
+]

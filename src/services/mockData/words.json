@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "word": "sunset",
+    "category": "nature",
+    "difficulty": "easy",
+    "hint": "Beautiful evening sky"
+  },
+  {
+    "Id": 2,
+    "word": "bicycle",
+    "category": "transport",
+    "difficulty": "easy",
+    "hint": "Two wheels, pedal power"
+  },
+  {
+    "Id": 3,
+    "word": "rainbow",
+    "category": "nature",
+    "difficulty": "easy",
+    "hint": "Colorful arc in the sky"
+  },
+  {
+    "Id": 4,
+    "word": "elephant",
+    "category": "animals",
+    "difficulty": "medium",
+    "hint": "Large mammal with trunk"
+  },
+  {
+    "Id": 5,
+    "word": "lighthouse",
+    "category": "buildings",
+    "difficulty": "medium",
+    "hint": "Guides ships at sea"
+  },
+  {
+    "Id": 6,
+    "word": "telescope",
+    "category": "objects",
+    "difficulty": "hard",
+    "hint": "See distant stars"
+  },
+  {
+    "Id": 7,
+    "word": "butterfly",
+    "category": "animals",
+    "difficulty": "medium",
+    "hint": "Colorful flying insect"
+  },
+  {
+    "Id": 8,
+    "word": "pizza",
+    "category": "food",
+    "difficulty": "easy",
+    "hint": "Round with toppings"
+  },
+  {
+    "Id": 9,
+    "word": "astronaut",
+    "category": "people",
+    "difficulty": "hard",
+    "hint": "Space explorer"
+  },
+  {
+    "Id": 10,
+    "word": "castle",
+    "category": "buildings",
+    "difficulty": "medium",
+    "hint": "Medieval fortress"
+  }
+]

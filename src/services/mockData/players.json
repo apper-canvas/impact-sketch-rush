@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "name": "Alex",
+    "avatar": "🎨",
+    "score": 15,
+    "isDrawing": true,
+    "hasGuessed": false
+  },
+  {
+    "Id": 2,
+    "name": "Sam",
+    "avatar": "🎭",
+    "score": 8,
+    "isDrawing": false,
+    "hasGuessed": false
+  },
+  {
+    "Id": 3,
+    "name": "Jordan",
+    "avatar": "🎪",
+    "score": 12,
+    "isDrawing": false,
+    "hasGuessed": true
+  },
+  {
+    "Id": 4,
+    "name": "Casey",
+    "avatar": "🎯",
+    "score": 0,
+    "isDrawing": false,
+    "hasGuessed": false
+  }
+]
