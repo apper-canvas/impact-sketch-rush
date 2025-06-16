@@ -12,6 +12,7 @@ import Button from '@/components/atoms/Button';
 import SkeletonLoader from '@/components/atoms/SkeletonLoader';
 import ApperIcon from '@/components/ApperIcon';
 import { gameService, playerService, wordService } from '@/services';
+import { celebrateCorrectGuess } from '@/utils/celebrations';
 
 const GamePlay = () => {
   const navigate = useNavigate();
@@ -123,13 +124,14 @@ const GamePlay = () => {
       
       setGuesses(prev => [...prev, result.guess]);
       setGame(result.game);
-
-      if (result.isCorrect) {
+if (result.isCorrect) {
         const points = Math.max(1, Math.ceil(timeRemaining / 6));
         setLastScore(points);
         setShowScoreAnimation(true);
-        toast.success(`Correct! +${points} points`);
         
+        // Trigger celebration effects
+        celebrateCorrectGuess(points);
+        toast.success(`Correct! +${points} points`);
         // Advance to next turn after correct guess
         setTimeout(async () => {
           try {

@@ -29,8 +29,14 @@ body {
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
-  }
+}
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+  
+  /* Preload audio context for better sound performance */
+  .audio-preload {
+    position: absolute;
+    visibility: hidden;
   }
 }

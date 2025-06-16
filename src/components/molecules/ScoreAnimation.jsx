@@ -1,6 +1,20 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect } from 'react';
+import { triggerSuccessConfetti, triggerBonusConfetti } from '@/utils/celebrations';
 
 const ScoreAnimation = ({ points, isVisible, onComplete }) => {
+  useEffect(() => {
+    if (isVisible) {
+      // Trigger confetti when animation becomes visible
+      setTimeout(() => {
+        if (points >= 8) {
+          triggerBonusConfetti();
+        } else {
+          triggerSuccessConfetti();
+        }
+      }, 200); // Small delay to sync with animation
+    }
+  }, [isVisible, points]);
   return (
     <AnimatePresence onExitComplete={onComplete}>
       {isVisible && (
